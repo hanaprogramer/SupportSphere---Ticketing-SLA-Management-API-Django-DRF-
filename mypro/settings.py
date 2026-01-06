@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'apps.reports',
 ]
  
+AUTH_USER_MODEL = "accounts.CustomUser"
 
 
 
